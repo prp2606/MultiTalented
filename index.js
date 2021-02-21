@@ -17,31 +17,31 @@ multiTalented.set("views", __dirname + "/");
 multiTalented.engine("html", engines.mustache);
 multiTalented.set("view engine", "html");
 
-multiTalented.get("/", (req, res) => {
+multiTalented.get("/MultiTalented/", (req, res) => {
   res.status(200).render("index.html");
 });
 
-multiTalented.get("/expenseTracker", (req, res) => {
+multiTalented.get("/MultiTalented/expenseTracker", (req, res) => {
   res.status(200).render("expenseTracker.html");
 });
 
-multiTalented.get("/todo", (req, res) => {
+multiTalented.get("/MultiTalented/todo", (req, res) => {
   res.status(200).render("toDo.html");
 });
 
-multiTalented.get("/notesTaker", (req, res) => {
+multiTalented.get("/MultiTalented/notesTaker", (req, res) => {
   res.status(200).render("notesTaker.html");
 });
 
-multiTalented.get("/calculator", (req, res) => {
+multiTalented.get("/MultiTalented/calculator", (req, res) => {
   res.status(200).render("calculator.html");
 });
 
-multiTalented.get("/guessGame", (req, res) => {
+multiTalented.get("/MultiTalented/guessGame", (req, res) => {
   res.status(200).render("guessGame.html");
 });
 
-multiTalented.get("/tictactoe", (req, res) => {
+multiTalented.get("/MultiTalented/tictactoe", (req, res) => {
   res.status(200).render("tictactoe.html");
 });
 
