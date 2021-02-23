@@ -26,7 +26,7 @@ multiTalented.get("/MultiTalented/expenseTracker", (req, res) => {
 });
 
 multiTalented.get("/MultiTalented/todo", (req, res) => {
-  res.status(200).render("toDo.html");
+  res.status(200).render("todo.html");
 });
 
 multiTalented.get("/MultiTalented/notesTaker", (req, res) => {
